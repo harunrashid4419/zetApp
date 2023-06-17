@@ -1,0 +1,33 @@
+.main-navbar{
+    border-bottom: 1px solid rgb(208, 215, 224);
+    padding: 15px;
+}
+.main-navbar .navbar-section {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+.main-navbar .navbar-section .logo img{
+    cursor: pointer;
+}
+.main-navbar .navbar-section .menu{
+    color: black;
+}
+.main-navbar .navbar-section .menu ul{
+    display: flex;
+    align-items: center;
+}
+.main-navbar .navbar-section .menu li{
+    padding: 0px 1rem;
+    font-size: 1.15rem;
+    font-weight: 500;
+    color: #596379;
+}
+.main-navbar .navbar-section .menu button {
+    background: rgb(32, 117, 240);
+    border: none;
+    color: rgb(255, 255, 255);
+    border-radius: 8px;
+    font-size: 16px;
+    padding: 5px 10px;
+}
